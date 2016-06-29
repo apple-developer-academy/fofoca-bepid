@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A190BD431D24427200D92E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190BD421D24427200D92E1B /* AppDelegate.swift */; };
+		A190BD451D24427200D92E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190BD441D24427200D92E1B /* ViewController.swift */; };
+		A190BD481D24427200D92E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A190BD461D24427200D92E1B /* Main.storyboard */; };
+		A190BD4A1D24427200D92E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A190BD491D24427200D92E1B /* Assets.xcassets */; };
+		A190BD4D1D24427200D92E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A190BD4B1D24427200D92E1B /* LaunchScreen.storyboard */; };
+		A190BD581D24427200D92E1B /* PushNotificationExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190BD571D24427200D92E1B /* PushNotificationExampleTests.swift */; };
+		A190BD631D24427200D92E1B /* PushNotificationExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190BD621D24427200D92E1B /* PushNotificationExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A190BD541D24427200D92E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A190BD371D24427200D92E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A190BD3E1D24427200D92E1B;
+			remoteInfo = PushNotificationExample;
+		};
+		A190BD5F1D24427200D92E1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A190BD371D24427200D92E1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A190BD3E1D24427200D92E1B;
+			remoteInfo = PushNotificationExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A190BD3F1D24427200D92E1B /* PushNotificationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotificationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A190BD421D24427200D92E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A190BD441D24427200D92E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A190BD471D24427200D92E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A190BD491D24427200D92E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A190BD4C1D24427200D92E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A190BD4E1D24427200D92E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A190BD531D24427200D92E1B /* PushNotificationExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotificationExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A190BD571D24427200D92E1B /* PushNotificationExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationExampleTests.swift; sourceTree = "<group>"; };
+		A190BD591D24427200D92E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A190BD5E1D24427200D92E1B /* PushNotificationExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotificationExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A190BD621D24427200D92E1B /* PushNotificationExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationExampleUITests.swift; sourceTree = "<group>"; };
+		A190BD641D24427200D92E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A190BD3C1D24427200D92E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A190BD501D24427200D92E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A190BD5B1D24427200D92E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A190BD361D24427200D92E1B = {
+			isa = PBXGroup;
+			children = (
+				A190BD411D24427200D92E1B /* PushNotificationExample */,
+				A190BD561D24427200D92E1B /* PushNotificationExampleTests */,
+				A190BD611D24427200D92E1B /* PushNotificationExampleUITests */,
+				A190BD401D24427200D92E1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A190BD401D24427200D92E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A190BD3F1D24427200D92E1B /* PushNotificationExample.app */,
+				A190BD531D24427200D92E1B /* PushNotificationExampleTests.xctest */,
+				A190BD5E1D24427200D92E1B /* PushNotificationExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A190BD411D24427200D92E1B /* PushNotificationExample */ = {
+			isa = PBXGroup;
+			children = (
+				A190BD421D24427200D92E1B /* AppDelegate.swift */,
+				A190BD441D24427200D92E1B /* ViewController.swift */,
+				A190BD461D24427200D92E1B /* Main.storyboard */,
+				A190BD491D24427200D92E1B /* Assets.xcassets */,
+				A190BD4B1D24427200D92E1B /* LaunchScreen.storyboard */,
+				A190BD4E1D24427200D92E1B /* Info.plist */,
+			);
+			path = PushNotificationExample;
+			sourceTree = "<group>";
+		};
+		A190BD561D24427200D92E1B /* PushNotificationExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				A190BD571D24427200D92E1B /* PushNotificationExampleTests.swift */,
+				A190BD591D24427200D92E1B /* Info.plist */,
+			);
+			path = PushNotificationExampleTests;
+			sourceTree = "<group>";
+		};
+		A190BD611D24427200D92E1B /* PushNotificationExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A190BD621D24427200D92E1B /* PushNotificationExampleUITests.swift */,
+				A190BD641D24427200D92E1B /* Info.plist */,
+			);
+			path = PushNotificationExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A190BD3E1D24427200D92E1B /* PushNotificationExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A190BD671D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExample" */;
+			buildPhases = (
+				A190BD3B1D24427200D92E1B /* Sources */,
+				A190BD3C1D24427200D92E1B /* Frameworks */,
+				A190BD3D1D24427200D92E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushNotificationExample;
+			productName = PushNotificationExample;
+			productReference = A190BD3F1D24427200D92E1B /* PushNotificationExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A190BD521D24427200D92E1B /* PushNotificationExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A190BD6A1D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExampleTests" */;
+			buildPhases = (
+				A190BD4F1D24427200D92E1B /* Sources */,
+				A190BD501D24427200D92E1B /* Frameworks */,
+				A190BD511D24427200D92E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A190BD551D24427200D92E1B /* PBXTargetDependency */,
+			);
+			name = PushNotificationExampleTests;
+			productName = PushNotificationExampleTests;
+			productReference = A190BD531D24427200D92E1B /* PushNotificationExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A190BD5D1D24427200D92E1B /* PushNotificationExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A190BD6D1D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExampleUITests" */;
+			buildPhases = (
+				A190BD5A1D24427200D92E1B /* Sources */,
+				A190BD5B1D24427200D92E1B /* Frameworks */,
+				A190BD5C1D24427200D92E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A190BD601D24427200D92E1B /* PBXTargetDependency */,
+			);
+			name = PushNotificationExampleUITests;
+			productName = PushNotificationExampleUITests;
+			productReference = A190BD5E1D24427200D92E1B /* PushNotificationExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A190BD371D24427200D92E1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Murilo Da Paixão Lima";
+				TargetAttributes = {
+					A190BD3E1D24427200D92E1B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A190BD521D24427200D92E1B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A190BD3E1D24427200D92E1B;
+					};
+					A190BD5D1D24427200D92E1B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A190BD3E1D24427200D92E1B;
+					};
+				};
+			};
+			buildConfigurationList = A190BD3A1D24427200D92E1B /* Build configuration list for PBXProject "PushNotificationExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A190BD361D24427200D92E1B;
+			productRefGroup = A190BD401D24427200D92E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A190BD3E1D24427200D92E1B /* PushNotificationExample */,
+				A190BD521D24427200D92E1B /* PushNotificationExampleTests */,
+				A190BD5D1D24427200D92E1B /* PushNotificationExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A190BD3D1D24427200D92E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A190BD4D1D24427200D92E1B /* LaunchScreen.storyboard in Resources */,
+				A190BD4A1D24427200D92E1B /* Assets.xcassets in Resources */,
+				A190BD481D24427200D92E1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A190BD511D24427200D92E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A190BD5C1D24427200D92E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A190BD3B1D24427200D92E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A190BD451D24427200D92E1B /* ViewController.swift in Sources */,
+				A190BD431D24427200D92E1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A190BD4F1D24427200D92E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A190BD581D24427200D92E1B /* PushNotificationExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A190BD5A1D24427200D92E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A190BD631D24427200D92E1B /* PushNotificationExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A190BD551D24427200D92E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A190BD3E1D24427200D92E1B /* PushNotificationExample */;
+			targetProxy = A190BD541D24427200D92E1B /* PBXContainerItemProxy */;
+		};
+		A190BD601D24427200D92E1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A190BD3E1D24427200D92E1B /* PushNotificationExample */;
+			targetProxy = A190BD5F1D24427200D92E1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A190BD461D24427200D92E1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A190BD471D24427200D92E1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A190BD4B1D24427200D92E1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A190BD4C1D24427200D92E1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A190BD651D24427200D92E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A190BD661D24427200D92E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A190BD681D24427200D92E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PushNotificationExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A190BD691D24427200D92E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PushNotificationExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A190BD6B1D24427200D92E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PushNotificationExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushNotificationExample.app/PushNotificationExample";
+			};
+			name = Debug;
+		};
+		A190BD6C1D24427200D92E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PushNotificationExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushNotificationExample.app/PushNotificationExample";
+			};
+			name = Release;
+		};
+		A190BD6E1D24427200D92E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PushNotificationExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PushNotificationExample;
+			};
+			name = Debug;
+		};
+		A190BD6F1D24427200D92E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PushNotificationExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PushNotificationExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A190BD3A1D24427200D92E1B /* Build configuration list for PBXProject "PushNotificationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A190BD651D24427200D92E1B /* Debug */,
+				A190BD661D24427200D92E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A190BD671D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A190BD681D24427200D92E1B /* Debug */,
+				A190BD691D24427200D92E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A190BD6A1D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A190BD6B1D24427200D92E1B /* Debug */,
+				A190BD6C1D24427200D92E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A190BD6D1D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A190BD6E1D24427200D92E1B /* Debug */,
+				A190BD6F1D24427200D92E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A190BD371D24427200D92E1B /* Project object */;
+}
