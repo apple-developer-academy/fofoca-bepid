@@ -13,9 +13,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
+        print(deviceToken)
+    }
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        _ = OneSignal(launchOptions: launchOptions, appId: "b66b1539-bf14-4c52-acdc-a7178f856c6f", handleNotification: nil)
+        OneSignal.defaultClient().enableInAppAlertNotification(true)
+        
         return true
     }
 
