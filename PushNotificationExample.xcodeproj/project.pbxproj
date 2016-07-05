@@ -1,716 +1,720 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 46;
+    objects = {
 
 /* Begin PBXBuildFile section */
-		881B9A4AF9AD02EDBD7BE587 /* Pods_PushNotificationExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338C94AFB941B12856AA427A /* Pods_PushNotificationExampleUITests.framework */; };
-		A190BD431D24427200D92E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190BD421D24427200D92E1B /* AppDelegate.swift */; };
-		A190BD451D24427200D92E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190BD441D24427200D92E1B /* ViewController.swift */; };
-		A190BD481D24427200D92E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A190BD461D24427200D92E1B /* Main.storyboard */; };
-		A190BD4A1D24427200D92E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A190BD491D24427200D92E1B /* Assets.xcassets */; };
-		A190BD4D1D24427200D92E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A190BD4B1D24427200D92E1B /* LaunchScreen.storyboard */; };
-		A190BD581D24427200D92E1B /* PushNotificationExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190BD571D24427200D92E1B /* PushNotificationExampleTests.swift */; };
-		A190BD631D24427200D92E1B /* PushNotificationExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190BD621D24427200D92E1B /* PushNotificationExampleUITests.swift */; };
-		A190BD721D24633800D92E1B /* PushNotificationExample-Bridging-Header.m in Sources */ = {isa = PBXBuildFile; fileRef = A190BD711D24633800D92E1B /* PushNotificationExample-Bridging-Header.m */; };
-		AC5CDBA9BFBED9477648D3E7 /* Pods_PushNotificationExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3546C53AE4844DAF2388FBE /* Pods_PushNotificationExample.framework */; };
-		B335A8D67B3925935B2D8077 /* Pods_PushNotificationExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7023F2E181604099D5E564D9 /* Pods_PushNotificationExampleTests.framework */; };
+        881B9A4AF9AD02EDBD7BE587 /* Pods_PushNotificationExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338C94AFB941B12856AA427A /* Pods_PushNotificationExampleUITests.framework */; };
+        A190BD431D24427200D92E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190BD421D24427200D92E1B /* AppDelegate.swift */; };
+        A190BD451D24427200D92E1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190BD441D24427200D92E1B /* ViewController.swift */; };
+        A190BD481D24427200D92E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A190BD461D24427200D92E1B /* Main.storyboard */; };
+        A190BD4A1D24427200D92E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A190BD491D24427200D92E1B /* Assets.xcassets */; };
+        A190BD4D1D24427200D92E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A190BD4B1D24427200D92E1B /* LaunchScreen.storyboard */; };
+        A190BD581D24427200D92E1B /* PushNotificationExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190BD571D24427200D92E1B /* PushNotificationExampleTests.swift */; };
+        A190BD631D24427200D92E1B /* PushNotificationExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A190BD621D24427200D92E1B /* PushNotificationExampleUITests.swift */; };
+        A190BD721D24633800D92E1B /* PushNotificationExample-Bridging-Header.m in Sources */ = {isa = PBXBuildFile; fileRef = A190BD711D24633800D92E1B /* PushNotificationExample-Bridging-Header.m */; };
+        A19E5C461D2B01250039F801 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19E5C451D2B01250039F801 /* TableViewCell.swift */; };
+        AC5CDBA9BFBED9477648D3E7 /* Pods_PushNotificationExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3546C53AE4844DAF2388FBE /* Pods_PushNotificationExample.framework */; };
+        B335A8D67B3925935B2D8077 /* Pods_PushNotificationExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7023F2E181604099D5E564D9 /* Pods_PushNotificationExampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A190BD541D24427200D92E1B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A190BD371D24427200D92E1B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A190BD3E1D24427200D92E1B;
-			remoteInfo = PushNotificationExample;
-		};
-		A190BD5F1D24427200D92E1B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A190BD371D24427200D92E1B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A190BD3E1D24427200D92E1B;
-			remoteInfo = PushNotificationExample;
-		};
+        A190BD541D24427200D92E1B /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = A190BD371D24427200D92E1B /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = A190BD3E1D24427200D92E1B;
+            remoteInfo = PushNotificationExample;
+        };
+        A190BD5F1D24427200D92E1B /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = A190BD371D24427200D92E1B /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = A190BD3E1D24427200D92E1B;
+            remoteInfo = PushNotificationExample;
+        };
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CE7C78CF619902E96D91A38 /* Pods-PushNotificationExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationExampleTests/Pods-PushNotificationExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		211CA5B8284EED37559E0E6A /* Pods-PushNotificationExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationExampleUITests/Pods-PushNotificationExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		338C94AFB941B12856AA427A /* Pods_PushNotificationExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotificationExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		438D87AB863BA86EB1E5D7A1 /* Pods-PushNotificationExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationExampleUITests/Pods-PushNotificationExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		58E896DAEDA4ADD0AF7ECB98 /* Pods-PushNotificationExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationExampleTests/Pods-PushNotificationExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		5ACB3FF667B9EE154DACF983 /* Pods-PushNotificationExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationExample/Pods-PushNotificationExample.release.xcconfig"; sourceTree = "<group>"; };
-		7023F2E181604099D5E564D9 /* Pods_PushNotificationExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotificationExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A190BD3F1D24427200D92E1B /* PushNotificationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotificationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A190BD421D24427200D92E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A190BD441D24427200D92E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A190BD471D24427200D92E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A190BD491D24427200D92E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A190BD4C1D24427200D92E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A190BD4E1D24427200D92E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A190BD531D24427200D92E1B /* PushNotificationExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotificationExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A190BD571D24427200D92E1B /* PushNotificationExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationExampleTests.swift; sourceTree = "<group>"; };
-		A190BD591D24427200D92E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A190BD5E1D24427200D92E1B /* PushNotificationExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotificationExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A190BD621D24427200D92E1B /* PushNotificationExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationExampleUITests.swift; sourceTree = "<group>"; };
-		A190BD641D24427200D92E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A190BD701D24633800D92E1B /* PushNotificationExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushNotificationExample-Bridging-Header.h"; sourceTree = "<group>"; };
-		A190BD711D24633800D92E1B /* PushNotificationExample-Bridging-Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PushNotificationExample-Bridging-Header.m"; sourceTree = "<group>"; };
-		A75E129000DE7428BBDEC0DB /* Pods-PushNotificationExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationExample/Pods-PushNotificationExample.debug.xcconfig"; sourceTree = "<group>"; };
-		F3546C53AE4844DAF2388FBE /* Pods_PushNotificationExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotificationExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+        0CE7C78CF619902E96D91A38 /* Pods-PushNotificationExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationExampleTests/Pods-PushNotificationExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+        211CA5B8284EED37559E0E6A /* Pods-PushNotificationExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationExampleUITests/Pods-PushNotificationExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+        338C94AFB941B12856AA427A /* Pods_PushNotificationExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotificationExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+        438D87AB863BA86EB1E5D7A1 /* Pods-PushNotificationExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationExampleUITests/Pods-PushNotificationExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+        58E896DAEDA4ADD0AF7ECB98 /* Pods-PushNotificationExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationExampleTests/Pods-PushNotificationExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+        5ACB3FF667B9EE154DACF983 /* Pods-PushNotificationExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationExample/Pods-PushNotificationExample.release.xcconfig"; sourceTree = "<group>"; };
+        7023F2E181604099D5E564D9 /* Pods_PushNotificationExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotificationExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+        A190BD3F1D24427200D92E1B /* PushNotificationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotificationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        A190BD421D24427200D92E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+        A190BD441D24427200D92E1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+        A190BD471D24427200D92E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+        A190BD491D24427200D92E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        A190BD4C1D24427200D92E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+        A190BD4E1D24427200D92E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        A190BD531D24427200D92E1B /* PushNotificationExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotificationExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        A190BD571D24427200D92E1B /* PushNotificationExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationExampleTests.swift; sourceTree = "<group>"; };
+        A190BD591D24427200D92E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        A190BD5E1D24427200D92E1B /* PushNotificationExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushNotificationExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+        A190BD621D24427200D92E1B /* PushNotificationExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationExampleUITests.swift; sourceTree = "<group>"; };
+        A190BD641D24427200D92E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        A190BD701D24633800D92E1B /* PushNotificationExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushNotificationExample-Bridging-Header.h"; sourceTree = "<group>"; };
+        A190BD711D24633800D92E1B /* PushNotificationExample-Bridging-Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PushNotificationExample-Bridging-Header.m"; sourceTree = "<group>"; };
+        A19E5C451D2B01250039F801 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+        A75E129000DE7428BBDEC0DB /* Pods-PushNotificationExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushNotificationExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PushNotificationExample/Pods-PushNotificationExample.debug.xcconfig"; sourceTree = "<group>"; };
+        F3546C53AE4844DAF2388FBE /* Pods_PushNotificationExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushNotificationExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A190BD3C1D24427200D92E1B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AC5CDBA9BFBED9477648D3E7 /* Pods_PushNotificationExample.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A190BD501D24427200D92E1B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B335A8D67B3925935B2D8077 /* Pods_PushNotificationExampleTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A190BD5B1D24427200D92E1B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				881B9A4AF9AD02EDBD7BE587 /* Pods_PushNotificationExampleUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        A190BD3C1D24427200D92E1B /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                AC5CDBA9BFBED9477648D3E7 /* Pods_PushNotificationExample.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        A190BD501D24427200D92E1B /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                B335A8D67B3925935B2D8077 /* Pods_PushNotificationExampleTests.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        A190BD5B1D24427200D92E1B /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                881B9A4AF9AD02EDBD7BE587 /* Pods_PushNotificationExampleUITests.framework in Frameworks */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		483BA404D970B5B953FBDD5F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A75E129000DE7428BBDEC0DB /* Pods-PushNotificationExample.debug.xcconfig */,
-				5ACB3FF667B9EE154DACF983 /* Pods-PushNotificationExample.release.xcconfig */,
-				0CE7C78CF619902E96D91A38 /* Pods-PushNotificationExampleTests.debug.xcconfig */,
-				58E896DAEDA4ADD0AF7ECB98 /* Pods-PushNotificationExampleTests.release.xcconfig */,
-				438D87AB863BA86EB1E5D7A1 /* Pods-PushNotificationExampleUITests.debug.xcconfig */,
-				211CA5B8284EED37559E0E6A /* Pods-PushNotificationExampleUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		947DF5E045D304CFBA280674 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F3546C53AE4844DAF2388FBE /* Pods_PushNotificationExample.framework */,
-				7023F2E181604099D5E564D9 /* Pods_PushNotificationExampleTests.framework */,
-				338C94AFB941B12856AA427A /* Pods_PushNotificationExampleUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A190BD361D24427200D92E1B = {
-			isa = PBXGroup;
-			children = (
-				A190BD411D24427200D92E1B /* PushNotificationExample */,
-				A190BD561D24427200D92E1B /* PushNotificationExampleTests */,
-				A190BD611D24427200D92E1B /* PushNotificationExampleUITests */,
-				A190BD401D24427200D92E1B /* Products */,
-				483BA404D970B5B953FBDD5F /* Pods */,
-				947DF5E045D304CFBA280674 /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		A190BD401D24427200D92E1B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A190BD3F1D24427200D92E1B /* PushNotificationExample.app */,
-				A190BD531D24427200D92E1B /* PushNotificationExampleTests.xctest */,
-				A190BD5E1D24427200D92E1B /* PushNotificationExampleUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A190BD411D24427200D92E1B /* PushNotificationExample */ = {
-			isa = PBXGroup;
-			children = (
-				A190BD421D24427200D92E1B /* AppDelegate.swift */,
-				A190BD711D24633800D92E1B /* PushNotificationExample-Bridging-Header.m */,
-				A190BD441D24427200D92E1B /* ViewController.swift */,
-				A190BD461D24427200D92E1B /* Main.storyboard */,
-				A190BD491D24427200D92E1B /* Assets.xcassets */,
-				A190BD4B1D24427200D92E1B /* LaunchScreen.storyboard */,
-				A190BD4E1D24427200D92E1B /* Info.plist */,
-				A190BD701D24633800D92E1B /* PushNotificationExample-Bridging-Header.h */,
-			);
-			path = PushNotificationExample;
-			sourceTree = "<group>";
-		};
-		A190BD561D24427200D92E1B /* PushNotificationExampleTests */ = {
-			isa = PBXGroup;
-			children = (
-				A190BD571D24427200D92E1B /* PushNotificationExampleTests.swift */,
-				A190BD591D24427200D92E1B /* Info.plist */,
-			);
-			path = PushNotificationExampleTests;
-			sourceTree = "<group>";
-		};
-		A190BD611D24427200D92E1B /* PushNotificationExampleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A190BD621D24427200D92E1B /* PushNotificationExampleUITests.swift */,
-				A190BD641D24427200D92E1B /* Info.plist */,
-			);
-			path = PushNotificationExampleUITests;
-			sourceTree = "<group>";
-		};
+        483BA404D970B5B953FBDD5F /* Pods */ = {
+            isa = PBXGroup;
+            children = (
+                A75E129000DE7428BBDEC0DB /* Pods-PushNotificationExample.debug.xcconfig */,
+                5ACB3FF667B9EE154DACF983 /* Pods-PushNotificationExample.release.xcconfig */,
+                0CE7C78CF619902E96D91A38 /* Pods-PushNotificationExampleTests.debug.xcconfig */,
+                58E896DAEDA4ADD0AF7ECB98 /* Pods-PushNotificationExampleTests.release.xcconfig */,
+                438D87AB863BA86EB1E5D7A1 /* Pods-PushNotificationExampleUITests.debug.xcconfig */,
+                211CA5B8284EED37559E0E6A /* Pods-PushNotificationExampleUITests.release.xcconfig */,
+            );
+            name = Pods;
+            sourceTree = "<group>";
+        };
+        947DF5E045D304CFBA280674 /* Frameworks */ = {
+            isa = PBXGroup;
+            children = (
+                F3546C53AE4844DAF2388FBE /* Pods_PushNotificationExample.framework */,
+                7023F2E181604099D5E564D9 /* Pods_PushNotificationExampleTests.framework */,
+                338C94AFB941B12856AA427A /* Pods_PushNotificationExampleUITests.framework */,
+            );
+            name = Frameworks;
+            sourceTree = "<group>";
+        };
+        A190BD361D24427200D92E1B = {
+            isa = PBXGroup;
+            children = (
+                A190BD411D24427200D92E1B /* PushNotificationExample */,
+                A190BD561D24427200D92E1B /* PushNotificationExampleTests */,
+                A190BD611D24427200D92E1B /* PushNotificationExampleUITests */,
+                A190BD401D24427200D92E1B /* Products */,
+                483BA404D970B5B953FBDD5F /* Pods */,
+                947DF5E045D304CFBA280674 /* Frameworks */,
+            );
+            sourceTree = "<group>";
+        };
+        A190BD401D24427200D92E1B /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                A190BD3F1D24427200D92E1B /* PushNotificationExample.app */,
+                A190BD531D24427200D92E1B /* PushNotificationExampleTests.xctest */,
+                A190BD5E1D24427200D92E1B /* PushNotificationExampleUITests.xctest */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+        A190BD411D24427200D92E1B /* PushNotificationExample */ = {
+            isa = PBXGroup;
+            children = (
+                A190BD421D24427200D92E1B /* AppDelegate.swift */,
+                A190BD441D24427200D92E1B /* ViewController.swift */,
+                A190BD461D24427200D92E1B /* Main.storyboard */,
+                A19E5C451D2B01250039F801 /* TableViewCell.swift */,
+                A190BD491D24427200D92E1B /* Assets.xcassets */,
+                A190BD4B1D24427200D92E1B /* LaunchScreen.storyboard */,
+                A190BD4E1D24427200D92E1B /* Info.plist */,
+                A190BD701D24633800D92E1B /* PushNotificationExample-Bridging-Header.h */,
+                A190BD711D24633800D92E1B /* PushNotificationExample-Bridging-Header.m */,
+            );
+            path = PushNotificationExample;
+            sourceTree = "<group>";
+        };
+        A190BD561D24427200D92E1B /* PushNotificationExampleTests */ = {
+            isa = PBXGroup;
+            children = (
+                A190BD571D24427200D92E1B /* PushNotificationExampleTests.swift */,
+                A190BD591D24427200D92E1B /* Info.plist */,
+            );
+            path = PushNotificationExampleTests;
+            sourceTree = "<group>";
+        };
+        A190BD611D24427200D92E1B /* PushNotificationExampleUITests */ = {
+            isa = PBXGroup;
+            children = (
+                A190BD621D24427200D92E1B /* PushNotificationExampleUITests.swift */,
+                A190BD641D24427200D92E1B /* Info.plist */,
+            );
+            path = PushNotificationExampleUITests;
+            sourceTree = "<group>";
+        };
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A190BD3E1D24427200D92E1B /* PushNotificationExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A190BD671D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExample" */;
-			buildPhases = (
-				48DC709079A9585AF7B3C86B /* [CP] Check Pods Manifest.lock */,
-				A190BD3B1D24427200D92E1B /* Sources */,
-				A190BD3C1D24427200D92E1B /* Frameworks */,
-				A190BD3D1D24427200D92E1B /* Resources */,
-				D7F1B3E87755C0C4F1A227AA /* [CP] Embed Pods Frameworks */,
-				5B0EAD6E72450DD83DBB9E11 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PushNotificationExample;
-			productName = PushNotificationExample;
-			productReference = A190BD3F1D24427200D92E1B /* PushNotificationExample.app */;
-			productType = "com.apple.product-type.application";
-		};
-		A190BD521D24427200D92E1B /* PushNotificationExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A190BD6A1D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExampleTests" */;
-			buildPhases = (
-				0DAA130E5CA248D0329072F0 /* [CP] Check Pods Manifest.lock */,
-				A190BD4F1D24427200D92E1B /* Sources */,
-				A190BD501D24427200D92E1B /* Frameworks */,
-				A190BD511D24427200D92E1B /* Resources */,
-				997DC2F661EAA104F9BF3F48 /* [CP] Embed Pods Frameworks */,
-				E5DB842AE11950AA29DB9D7B /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A190BD551D24427200D92E1B /* PBXTargetDependency */,
-			);
-			name = PushNotificationExampleTests;
-			productName = PushNotificationExampleTests;
-			productReference = A190BD531D24427200D92E1B /* PushNotificationExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A190BD5D1D24427200D92E1B /* PushNotificationExampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A190BD6D1D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExampleUITests" */;
-			buildPhases = (
-				537396AB4EA24399EA5C5A16 /* [CP] Check Pods Manifest.lock */,
-				A190BD5A1D24427200D92E1B /* Sources */,
-				A190BD5B1D24427200D92E1B /* Frameworks */,
-				A190BD5C1D24427200D92E1B /* Resources */,
-				1076C2A80A2C54D313D3BBBB /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A190BD601D24427200D92E1B /* PBXTargetDependency */,
-			);
-			name = PushNotificationExampleUITests;
-			productName = PushNotificationExampleUITests;
-			productReference = A190BD5E1D24427200D92E1B /* PushNotificationExampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
+        A190BD3E1D24427200D92E1B /* PushNotificationExample */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = A190BD671D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExample" */;
+            buildPhases = (
+                48DC709079A9585AF7B3C86B /* [CP] Check Pods Manifest.lock */,
+                A190BD3B1D24427200D92E1B /* Sources */,
+                A190BD3C1D24427200D92E1B /* Frameworks */,
+                A190BD3D1D24427200D92E1B /* Resources */,
+                D7F1B3E87755C0C4F1A227AA /* [CP] Embed Pods Frameworks */,
+                5B0EAD6E72450DD83DBB9E11 /* [CP] Copy Pods Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = PushNotificationExample;
+            productName = PushNotificationExample;
+            productReference = A190BD3F1D24427200D92E1B /* PushNotificationExample.app */;
+            productType = "com.apple.product-type.application";
+        };
+        A190BD521D24427200D92E1B /* PushNotificationExampleTests */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = A190BD6A1D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExampleTests" */;
+            buildPhases = (
+                0DAA130E5CA248D0329072F0 /* [CP] Check Pods Manifest.lock */,
+                A190BD4F1D24427200D92E1B /* Sources */,
+                A190BD501D24427200D92E1B /* Frameworks */,
+                A190BD511D24427200D92E1B /* Resources */,
+                997DC2F661EAA104F9BF3F48 /* [CP] Embed Pods Frameworks */,
+                E5DB842AE11950AA29DB9D7B /* [CP] Copy Pods Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+                A190BD551D24427200D92E1B /* PBXTargetDependency */,
+            );
+            name = PushNotificationExampleTests;
+            productName = PushNotificationExampleTests;
+            productReference = A190BD531D24427200D92E1B /* PushNotificationExampleTests.xctest */;
+            productType = "com.apple.product-type.bundle.unit-test";
+        };
+        A190BD5D1D24427200D92E1B /* PushNotificationExampleUITests */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = A190BD6D1D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExampleUITests" */;
+            buildPhases = (
+                537396AB4EA24399EA5C5A16 /* [CP] Check Pods Manifest.lock */,
+                A190BD5A1D24427200D92E1B /* Sources */,
+                A190BD5B1D24427200D92E1B /* Frameworks */,
+                A190BD5C1D24427200D92E1B /* Resources */,
+                1076C2A80A2C54D313D3BBBB /* [CP] Copy Pods Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+                A190BD601D24427200D92E1B /* PBXTargetDependency */,
+            );
+            name = PushNotificationExampleUITests;
+            productName = PushNotificationExampleUITests;
+            productReference = A190BD5E1D24427200D92E1B /* PushNotificationExampleUITests.xctest */;
+            productType = "com.apple.product-type.bundle.ui-testing";
+        };
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A190BD371D24427200D92E1B /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "Murilo Da Paixão Lima";
-				TargetAttributes = {
-					A190BD3E1D24427200D92E1B = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 7NG73DMK3X;
-						SystemCapabilities = {
-							com.apple.BackgroundModes = {
-								enabled = 1;
-							};
-							com.apple.Push = {
-								enabled = 1;
-							};
-						};
-					};
-					A190BD521D24427200D92E1B = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = A190BD3E1D24427200D92E1B;
-					};
-					A190BD5D1D24427200D92E1B = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = A190BD3E1D24427200D92E1B;
-					};
-				};
-			};
-			buildConfigurationList = A190BD3A1D24427200D92E1B /* Build configuration list for PBXProject "PushNotificationExample" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = A190BD361D24427200D92E1B;
-			productRefGroup = A190BD401D24427200D92E1B /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				A190BD3E1D24427200D92E1B /* PushNotificationExample */,
-				A190BD521D24427200D92E1B /* PushNotificationExampleTests */,
-				A190BD5D1D24427200D92E1B /* PushNotificationExampleUITests */,
-			);
-		};
+        A190BD371D24427200D92E1B /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastSwiftUpdateCheck = 0730;
+                LastUpgradeCheck = 0730;
+                ORGANIZATIONNAME = "Murilo Da PaixÃ£o Lima";
+                TargetAttributes = {
+                    A190BD3E1D24427200D92E1B = {
+                        CreatedOnToolsVersion = 7.3.1;
+                        DevelopmentTeam = 7NG73DMK3X;
+                        SystemCapabilities = {
+                            com.apple.BackgroundModes = {
+                                enabled = 1;
+                            };
+                            com.apple.Push = {
+                                enabled = 1;
+                            };
+                        };
+                    };
+                    A190BD521D24427200D92E1B = {
+                        CreatedOnToolsVersion = 7.3.1;
+                        TestTargetID = A190BD3E1D24427200D92E1B;
+                    };
+                    A190BD5D1D24427200D92E1B = {
+                        CreatedOnToolsVersion = 7.3.1;
+                        TestTargetID = A190BD3E1D24427200D92E1B;
+                    };
+                };
+            };
+            buildConfigurationList = A190BD3A1D24427200D92E1B /* Build configuration list for PBXProject "PushNotificationExample" */;
+            compatibilityVersion = "Xcode 3.2";
+            developmentRegion = English;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = A190BD361D24427200D92E1B;
+            productRefGroup = A190BD401D24427200D92E1B /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                A190BD3E1D24427200D92E1B /* PushNotificationExample */,
+                A190BD521D24427200D92E1B /* PushNotificationExampleTests */,
+                A190BD5D1D24427200D92E1B /* PushNotificationExampleUITests */,
+            );
+        };
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A190BD3D1D24427200D92E1B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A190BD4D1D24427200D92E1B /* LaunchScreen.storyboard in Resources */,
-				A190BD4A1D24427200D92E1B /* Assets.xcassets in Resources */,
-				A190BD481D24427200D92E1B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A190BD511D24427200D92E1B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A190BD5C1D24427200D92E1B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        A190BD3D1D24427200D92E1B /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                A190BD4D1D24427200D92E1B /* LaunchScreen.storyboard in Resources */,
+                A190BD4A1D24427200D92E1B /* Assets.xcassets in Resources */,
+                A190BD481D24427200D92E1B /* Main.storyboard in Resources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        A190BD511D24427200D92E1B /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        A190BD5C1D24427200D92E1B /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DAA130E5CA248D0329072F0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		1076C2A80A2C54D313D3BBBB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotificationExampleUITests/Pods-PushNotificationExampleUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		48DC709079A9585AF7B3C86B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		537396AB4EA24399EA5C5A16 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5B0EAD6E72450DD83DBB9E11 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotificationExample/Pods-PushNotificationExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		997DC2F661EAA104F9BF3F48 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotificationExampleTests/Pods-PushNotificationExampleTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D7F1B3E87755C0C4F1A227AA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotificationExample/Pods-PushNotificationExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E5DB842AE11950AA29DB9D7B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotificationExampleTests/Pods-PushNotificationExampleTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
+        0DAA130E5CA248D0329072F0 /* [CP] Check Pods Manifest.lock */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputPaths = (
+            );
+            name = "[CP] Check Pods Manifest.lock";
+            outputPaths = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+            showEnvVarsInLog = 0;
+        };
+        1076C2A80A2C54D313D3BBBB /* [CP] Copy Pods Resources */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputPaths = (
+            );
+            name = "[CP] Copy Pods Resources";
+            outputPaths = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotificationExampleUITests/Pods-PushNotificationExampleUITests-resources.sh\"\n";
+            showEnvVarsInLog = 0;
+        };
+        48DC709079A9585AF7B3C86B /* [CP] Check Pods Manifest.lock */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputPaths = (
+            );
+            name = "[CP] Check Pods Manifest.lock";
+            outputPaths = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+            showEnvVarsInLog = 0;
+        };
+        537396AB4EA24399EA5C5A16 /* [CP] Check Pods Manifest.lock */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputPaths = (
+            );
+            name = "[CP] Check Pods Manifest.lock";
+            outputPaths = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+            showEnvVarsInLog = 0;
+        };
+        5B0EAD6E72450DD83DBB9E11 /* [CP] Copy Pods Resources */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputPaths = (
+            );
+            name = "[CP] Copy Pods Resources";
+            outputPaths = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotificationExample/Pods-PushNotificationExample-resources.sh\"\n";
+            showEnvVarsInLog = 0;
+        };
+        997DC2F661EAA104F9BF3F48 /* [CP] Embed Pods Frameworks */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputPaths = (
+            );
+            name = "[CP] Embed Pods Frameworks";
+            outputPaths = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotificationExampleTests/Pods-PushNotificationExampleTests-frameworks.sh\"\n";
+            showEnvVarsInLog = 0;
+        };
+        D7F1B3E87755C0C4F1A227AA /* [CP] Embed Pods Frameworks */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputPaths = (
+            );
+            name = "[CP] Embed Pods Frameworks";
+            outputPaths = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotificationExample/Pods-PushNotificationExample-frameworks.sh\"\n";
+            showEnvVarsInLog = 0;
+        };
+        E5DB842AE11950AA29DB9D7B /* [CP] Copy Pods Resources */ = {
+            isa = PBXShellScriptBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            inputPaths = (
+            );
+            name = "[CP] Copy Pods Resources";
+            outputPaths = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+            shellPath = /bin/sh;
+            shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PushNotificationExampleTests/Pods-PushNotificationExampleTests-resources.sh\"\n";
+            showEnvVarsInLog = 0;
+        };
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A190BD3B1D24427200D92E1B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A190BD451D24427200D92E1B /* ViewController.swift in Sources */,
-				A190BD721D24633800D92E1B /* PushNotificationExample-Bridging-Header.m in Sources */,
-				A190BD431D24427200D92E1B /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A190BD4F1D24427200D92E1B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A190BD581D24427200D92E1B /* PushNotificationExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A190BD5A1D24427200D92E1B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A190BD631D24427200D92E1B /* PushNotificationExampleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
+        A190BD3B1D24427200D92E1B /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                A190BD451D24427200D92E1B /* ViewController.swift in Sources */,
+                A19E5C461D2B01250039F801 /* TableViewCell.swift in Sources */,
+                A190BD721D24633800D92E1B /* PushNotificationExample-Bridging-Header.m in Sources */,
+                A190BD431D24427200D92E1B /* AppDelegate.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        A190BD4F1D24427200D92E1B /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                A190BD581D24427200D92E1B /* PushNotificationExampleTests.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        A190BD5A1D24427200D92E1B /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                A190BD631D24427200D92E1B /* PushNotificationExampleUITests.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A190BD551D24427200D92E1B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A190BD3E1D24427200D92E1B /* PushNotificationExample */;
-			targetProxy = A190BD541D24427200D92E1B /* PBXContainerItemProxy */;
-		};
-		A190BD601D24427200D92E1B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A190BD3E1D24427200D92E1B /* PushNotificationExample */;
-			targetProxy = A190BD5F1D24427200D92E1B /* PBXContainerItemProxy */;
-		};
+        A190BD551D24427200D92E1B /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            target = A190BD3E1D24427200D92E1B /* PushNotificationExample */;
+            targetProxy = A190BD541D24427200D92E1B /* PBXContainerItemProxy */;
+        };
+        A190BD601D24427200D92E1B /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            target = A190BD3E1D24427200D92E1B /* PushNotificationExample */;
+            targetProxy = A190BD5F1D24427200D92E1B /* PBXContainerItemProxy */;
+        };
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A190BD461D24427200D92E1B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A190BD471D24427200D92E1B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A190BD4B1D24427200D92E1B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A190BD4C1D24427200D92E1B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
+        A190BD461D24427200D92E1B /* Main.storyboard */ = {
+            isa = PBXVariantGroup;
+            children = (
+                A190BD471D24427200D92E1B /* Base */,
+            );
+            name = Main.storyboard;
+            sourceTree = "<group>";
+        };
+        A190BD4B1D24427200D92E1B /* LaunchScreen.storyboard */ = {
+            isa = PBXVariantGroup;
+            children = (
+                A190BD4C1D24427200D92E1B /* Base */,
+            );
+            name = LaunchScreen.storyboard;
+            sourceTree = "<group>";
+        };
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A190BD651D24427200D92E1B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Maria José (2W5LWNP84P)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Maria José (2W5LWNP84P)";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "5ef33480-c42b-4d90-a878-cd904174eafc";
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A190BD661D24427200D92E1B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "5ef33480-c42b-4d90-a878-cd904174eafc";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A190BD681D24427200D92E1B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A75E129000DE7428BBDEC0DB /* Pods-PushNotificationExample.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = PushNotificationExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "PushNotificationExample/PushNotificationExample-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		A190BD691D24427200D92E1B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5ACB3FF667B9EE154DACF983 /* Pods-PushNotificationExample.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = PushNotificationExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "PushNotificationExample/PushNotificationExample-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		A190BD6B1D24427200D92E1B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CE7C78CF619902E96D91A38 /* Pods-PushNotificationExampleTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = PushNotificationExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushNotificationExample.app/PushNotificationExample";
-			};
-			name = Debug;
-		};
-		A190BD6C1D24427200D92E1B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58E896DAEDA4ADD0AF7ECB98 /* Pods-PushNotificationExampleTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = PushNotificationExampleTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExampleTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushNotificationExample.app/PushNotificationExample";
-			};
-			name = Release;
-		};
-		A190BD6E1D24427200D92E1B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 438D87AB863BA86EB1E5D7A1 /* Pods-PushNotificationExampleUITests.debug.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = PushNotificationExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PushNotificationExample;
-			};
-			name = Debug;
-		};
-		A190BD6F1D24427200D92E1B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 211CA5B8284EED37559E0E6A /* Pods-PushNotificationExampleUITests.release.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = PushNotificationExampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PushNotificationExample;
-			};
-			name = Release;
-		};
+        A190BD651D24427200D92E1B /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                CODE_SIGN_IDENTITY = "iPhone Developer: Maria JosÃ© (2W5LWNP84P)";
+                "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Maria JosÃ© (2W5LWNP84P)";
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                ENABLE_TESTABILITY = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu99;
+                GCC_DYNAMIC_NO_PIC = NO;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                GCC_PREPROCESSOR_DEFINITIONS = (
+                    "DEBUG=1",
+                    "$(inherited)",
+                );
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+                MTL_ENABLE_DEBUG_INFO = YES;
+                ONLY_ACTIVE_ARCH = YES;
+                PROVISIONING_PROFILE = "5ef33480-c42b-4d90-a878-cd904174eafc";
+                SDKROOT = iphoneos;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        A190BD661D24427200D92E1B /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ANALYZER_NONNULL = YES;
+                CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+                CLANG_CXX_LIBRARY = "libc++";
+                CLANG_ENABLE_MODULES = YES;
+                CLANG_ENABLE_OBJC_ARC = YES;
+                CLANG_WARN_BOOL_CONVERSION = YES;
+                CLANG_WARN_CONSTANT_CONVERSION = YES;
+                CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+                CLANG_WARN_EMPTY_BODY = YES;
+                CLANG_WARN_ENUM_CONVERSION = YES;
+                CLANG_WARN_INT_CONVERSION = YES;
+                CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+                CLANG_WARN_UNREACHABLE_CODE = YES;
+                CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+                "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+                COPY_PHASE_STRIP = NO;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                ENABLE_NS_ASSERTIONS = NO;
+                ENABLE_STRICT_OBJC_MSGSEND = YES;
+                GCC_C_LANGUAGE_STANDARD = gnu99;
+                GCC_NO_COMMON_BLOCKS = YES;
+                GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+                GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+                GCC_WARN_UNDECLARED_SELECTOR = YES;
+                GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+                GCC_WARN_UNUSED_FUNCTION = YES;
+                GCC_WARN_UNUSED_VARIABLE = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+                MTL_ENABLE_DEBUG_INFO = NO;
+                PROVISIONING_PROFILE = "5ef33480-c42b-4d90-a878-cd904174eafc";
+                SDKROOT = iphoneos;
+                TARGETED_DEVICE_FAMILY = "1,2";
+                VALIDATE_PRODUCT = YES;
+            };
+            name = Release;
+        };
+        A190BD681D24427200D92E1B /* Debug */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = A75E129000DE7428BBDEC0DB /* Pods-PushNotificationExample.debug.xcconfig */;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CLANG_ENABLE_MODULES = YES;
+                CODE_SIGN_IDENTITY = "iPhone Developer";
+                "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+                INFOPLIST_FILE = PushNotificationExample/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+                PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExample;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                PROVISIONING_PROFILE = "";
+                SWIFT_OBJC_BRIDGING_HEADER = "PushNotificationExample/PushNotificationExample-Bridging-Header.h";
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+            };
+            name = Debug;
+        };
+        A190BD691D24427200D92E1B /* Release */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 5ACB3FF667B9EE154DACF983 /* Pods-PushNotificationExample.release.xcconfig */;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CLANG_ENABLE_MODULES = YES;
+                CODE_SIGN_IDENTITY = "iPhone Developer";
+                "CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+                INFOPLIST_FILE = PushNotificationExample/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+                PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExample;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                PROVISIONING_PROFILE = "";
+                SWIFT_OBJC_BRIDGING_HEADER = "PushNotificationExample/PushNotificationExample-Bridging-Header.h";
+            };
+            name = Release;
+        };
+        A190BD6B1D24427200D92E1B /* Debug */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 0CE7C78CF619902E96D91A38 /* Pods-PushNotificationExampleTests.debug.xcconfig */;
+            buildSettings = {
+                BUNDLE_LOADER = "$(TEST_HOST)";
+                INFOPLIST_FILE = PushNotificationExampleTests/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExampleTests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushNotificationExample.app/PushNotificationExample";
+            };
+            name = Debug;
+        };
+        A190BD6C1D24427200D92E1B /* Release */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 58E896DAEDA4ADD0AF7ECB98 /* Pods-PushNotificationExampleTests.release.xcconfig */;
+            buildSettings = {
+                BUNDLE_LOADER = "$(TEST_HOST)";
+                INFOPLIST_FILE = PushNotificationExampleTests/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExampleTests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushNotificationExample.app/PushNotificationExample";
+            };
+            name = Release;
+        };
+        A190BD6E1D24427200D92E1B /* Debug */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 438D87AB863BA86EB1E5D7A1 /* Pods-PushNotificationExampleUITests.debug.xcconfig */;
+            buildSettings = {
+                INFOPLIST_FILE = PushNotificationExampleUITests/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExampleUITests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                TEST_TARGET_NAME = PushNotificationExample;
+            };
+            name = Debug;
+        };
+        A190BD6F1D24427200D92E1B /* Release */ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = 211CA5B8284EED37559E0E6A /* Pods-PushNotificationExampleUITests.release.xcconfig */;
+            buildSettings = {
+                INFOPLIST_FILE = PushNotificationExampleUITests/Info.plist;
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+                PRODUCT_BUNDLE_IDENTIFIER = bepid.murilo.PushNotificationExampleUITests;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                TEST_TARGET_NAME = PushNotificationExample;
+            };
+            name = Release;
+        };
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A190BD3A1D24427200D92E1B /* Build configuration list for PBXProject "PushNotificationExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A190BD651D24427200D92E1B /* Debug */,
-				A190BD661D24427200D92E1B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A190BD671D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A190BD681D24427200D92E1B /* Debug */,
-				A190BD691D24427200D92E1B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A190BD6A1D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A190BD6B1D24427200D92E1B /* Debug */,
-				A190BD6C1D24427200D92E1B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A190BD6D1D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A190BD6E1D24427200D92E1B /* Debug */,
-				A190BD6F1D24427200D92E1B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
+        A190BD3A1D24427200D92E1B /* Build configuration list for PBXProject "PushNotificationExample" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                A190BD651D24427200D92E1B /* Debug */,
+                A190BD661D24427200D92E1B /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        A190BD671D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExample" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                A190BD681D24427200D92E1B /* Debug */,
+                A190BD691D24427200D92E1B /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        A190BD6A1D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExampleTests" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                A190BD6B1D24427200D92E1B /* Debug */,
+                A190BD6C1D24427200D92E1B /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        A190BD6D1D24427200D92E1B /* Build configuration list for PBXNativeTarget "PushNotificationExampleUITests" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                A190BD6E1D24427200D92E1B /* Debug */,
+                A190BD6F1D24427200D92E1B /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
 /* End XCConfigurationList section */
-	};
-	rootObject = A190BD371D24427200D92E1B /* Project object */;
+    };
+    rootObject = A190BD371D24427200D92E1B /* Project object */;
 }
